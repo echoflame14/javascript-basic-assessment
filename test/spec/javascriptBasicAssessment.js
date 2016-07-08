@@ -37,7 +37,7 @@ describe('javascriptBasicAssesment', function () {
 		it('should have a color of pink', function () {
 			expect(myShirt.color.toLowerCase()).toEqual('pink')
 		})
-		
+
 		it('should be spandex', function () {
 			expect(myOtherShirt.type.toLowerCase()).toEqual('spandex')
 		})
